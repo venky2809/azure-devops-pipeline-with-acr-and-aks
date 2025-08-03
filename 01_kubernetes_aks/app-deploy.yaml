@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+Version: apps/v1
 kind: Deployment
 metadata:
   name: web-game
@@ -21,7 +21,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: web-game
-        image: mylabacr13.azurecr.io/web-game:tag
+        image: mylabacr133.azurecr.io/web-game:tag
         ports:
         - containerPort: 80
         resources:
